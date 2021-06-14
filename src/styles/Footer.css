@@ -4,6 +4,46 @@
     box-sizing: border-box;
 }
 .footer{
-    height: 400px;
+    background-color: #242B2E;
     width: 100%;
+    padding-bottom: 1rem;
+}
+.footer__logo{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 0.2rem;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+.footer__logo > .logo{
+    color: #fff;
+    font-size: 16px;
+}
+.footer__logo > .logo__icon{
+    font-size: 16px !important;
+    color: #fff !important;
+}
+.footer__middle{
+    padding: 0.2rem 0rem 0rem 2rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__middle > p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.socials {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.socials > .logo{
+    margin-right: 0.5rem;
+    transition: color 100ms ease-in !important;
+}
+.socials > .logo:hover{
+    color: orange !important;
 }
